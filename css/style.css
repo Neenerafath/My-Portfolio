@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+*{
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+body{
+font-family: 'Lobster', cursive;
+margin: 0;
+
+background-color: #eee;
+}
+img{max-width: 100%;display: block;}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+header{
+    width: 100%;
+    overflow: hidden;
+}
+.logo{
+    width: 30%;
+    float: left;
+    padding: 20px;
+    color: #da8775;
+}
+.logo span{
+    font-size: 30px;
+    font-weight: 800;
+    font-style: italic;
+    text-transform: uppercase;
+}
+nav{
+    width: 70%;
+    float: left;
+    padding: 10px;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+}
+nav ul li{
+    list-style: none;
+    float: left;
+   
+}
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    font-weight: 400;
+    color: #261617;
+    
+}
+
+.img-start{
+}
+.img-start img{}
+
+.about-section{
+    overflow: hidden;
+    width: 100%;
+}
+.myimage{
+}
+.myimage img{
+    width: 30%;
+    float: left;
+    padding: 15px;
+}
+article{
+    width: 70%;
+    float: left;
+    padding: 15px;
+}
+article h1{
+    margin: 0;
+    font-size: 2em;
+    font-style: italic;
+}
+article hr{
+    border-color: #18224640;
+}
+.details{}
+table{}
+table tr{}
+table tr td{
+    font-size: 22px;
+    font-weight: 100;
+}
+table tr th{
+    text-align: left;
+    font-weight: 600;
+    font-size: 23px;
+    width: 50%;
+}
+.portfolio-section{
+    overflow: hidden;
+}
+.portfolio{
+    width: 25%;
+    float: left;
+}
+.portfolio a{}
+.portfolio img{
+    width: 100%;
+    height: 160px;
+    float: left;
+}
